@@ -8,7 +8,7 @@ At a high level, this script is directed to a folder in which all the files with
 A hardcoded column - "Invoice number from partner to end-user" - is used to count the number of unique records across all the files dropped in the folder. 
 
 
-### Prerequisites
+## Prerequisites
 
 To get this script up and running you will need the following programs and python packages installed:
 
@@ -18,15 +18,15 @@ To get this script up and running you will need the following programs and pytho
 
 
 
-### Installing
+## Installation
 
 
-##### Install Python
+### Install Python
 
 [Download the latest version of Python](https://www.python.org/downloads/) 
 
 
-##### Install Pandas
+### Install Pandas
 
 
 You will need to locate the path to your pip.exe file, from the instance of Python you're currently running (only applies if you have multiple installs of python/anaconda). 
@@ -46,7 +46,7 @@ You will need to locate the path to your pip.exe file, from the instance of Pyth
 
 
 
-#####  Validate Installation
+###  Validate Installation
 
 + Open IDLE (or your favourite IDE) by pressing "Windows Key" and typing "IDLE". Press Enter.
 + Type: import pandas as pd
@@ -70,5 +70,4 @@ We'll be opening the script, configuring it to your machine and running it.
 * CTRL+O, find the .py file.* 
 
 3. On Line 12, the "file_path" variable needs to be pointed to your machine. 
-* C:\\Users\\<username>\\Desktop\\Client Data\\Motorola\\Zyme - Data\\RawData\\CleanData\\*
-
+* C:\\Users\ **username** \ Path to the folder with csv's \
