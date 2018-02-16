@@ -1,4 +1,4 @@
-# 360_LargeInvoice_InputAnalysis
+# Large File Analysis
 
 The objective of this code is to calculate the unique number of a specific field in multiple files, stored in a single directory.
 
@@ -33,7 +33,7 @@ You will need to locate the path to your pip.exe file, from the instance of Pyth
 
 
 **The path to your pip file is typically in the following location:**
-**C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts**
+*C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts*
 
 
 **If it's not there, here's an automatic way to locate the path to the pip file:**
@@ -43,6 +43,14 @@ You will need to locate the path to your pip.exe file, from the instance of Pyth
 + Press Enter
 + Directory of C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts
 
+
+#### Importing Pandas
+
+Now you know the directory of pip, it's time to install pandas. 
+
++ Change directory to the pip location. 
++ Use this command: `cd C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts"`
++ Type "pip.exe install pandas". Press Enter. 
 
 
 
@@ -64,10 +72,11 @@ If no errors appear, you've successfully installed python and pandas.
 We'll be opening the script, configuring it to your machine and running it. 
 
 1. Open IDLE. 
-* Windows Key, "IDLE", Press Enter*
+* Windows Key, "IDLE", Press Enter
 
 2. Open the script
-* CTRL+O, find the .py file.* 
+* CTRL+O, find the .py file.
 
 3. On Line 12, the "file_path" variable needs to be pointed to your machine. 
-* C:\\Users\ **username** \ Path to the folder with csv's \
+
+`C:\\Users\ **username** \ Path to the folder with csv's \`
