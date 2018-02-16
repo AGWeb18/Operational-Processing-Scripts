@@ -31,15 +31,20 @@ To get this script up and running you will need the following programs and pytho
 
 You will need to locate the path to your pip.exe file, from the instance of Python you're currently running (only applies if you have multiple installs of python/anaconda). 
 
-The path to your pip file is typically in the following location: 
+
+**The path to your pip file is typically in the following location: **
 **C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts**
 
-*If it's not there, here's an automatic way to locate the path to the pip file:*
+
+**If it's not there, here's an automatic way to locate the path to the pip file:**
 
 + Open CMD - Windows Key + "CMD". Press Enter
 + Enter the following: dir pip.exe /s /p
 + Press Enter
 + Directory of C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts
+
+
+
 
 #####  Validate Installation
 
@@ -54,12 +59,16 @@ If no errors appear, you've successfully installed python and pandas.
 
 
 
-
 ### Running the Script
 
-We'll be opening IDLE, Opening the Script, 
+We'll be opening the script, configuring it to your machine and running it. 
 
-```
-Give an example
-```
+1. Open IDLE. 
+..* Windows Key, "IDLE", Press Enter
+
+2. Open the script
+..* CTRL+O, find the .py file. 
+
+3. On Line 12, the "file_path" variable needs to be pointed to your machine. 
+..* C:\\Users\\<username>\\Desktop\\Client Data\\Motorola\\Zyme - Data\\RawData\\CleanData\\
 
