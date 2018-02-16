@@ -84,4 +84,4 @@ We'll be opening the script, configuring it to your machine and running it.
 
 `C:\\Users\ **username** \ Path to the folder with csv's \`
 
-4. Save the changes and **press F5 to run the script. 
+4. Save the changes and **press F5 to run the script.** 
