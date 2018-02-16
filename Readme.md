@@ -33,7 +33,8 @@ You will need to locate the path to your pip.exe file, from the instance of Pyth
 
 
 **The path to your pip file is typically in the following location:**
-*C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts*
+
+`C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts`
 
 
 **If it's not there, here's an automatic way to locate the path to the pip file:**
@@ -49,7 +50,9 @@ You will need to locate the path to your pip.exe file, from the instance of Pyth
 Now you know the directory of pip, it's time to install pandas. 
 
 + Change directory to the pip location. 
-+ Use this command: `cd C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts"`
++ Use this command:
+
+`cd C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts"`
 + Type "pip.exe install pandas". Press Enter. 
 
 
@@ -80,3 +83,5 @@ We'll be opening the script, configuring it to your machine and running it.
 3. On Line 12, the "file_path" variable needs to be pointed to your machine. 
 
 `C:\\Users\ **username** \ Path to the folder with csv's \`
+
+4. Save the changes and **press F5 to run the script. 
