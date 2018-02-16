@@ -23,13 +23,12 @@ To get this script up and running you will need the following programs and pytho
 
 ##### Install Python
 
-```
 [Download the latest version of Python](https://www.python.org/downloads/) 
-```
+
 
 ##### Install Pandas
 
-```
+
 You will need to locate the path to your pip.exe file, from the instance of Python you're currently running (only applies if you have multiple installs of python/anaconda). 
 
 The path to your pip file is typically in the following location: 
@@ -41,8 +40,6 @@ The path to your pip file is typically in the following location:
 + Enter the following: dir pip.exe /s /p
 + Press Enter
 + Directory of C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts
-
-```
 
 #####  Validate Installation
 
