@@ -74,8 +74,7 @@ End Sub
 
 ## Running the Script
 
-
-
-## Examples
-
-
+1. Open Excel
+2. Select "Macros" 
+3. Find **"list_files"** and **select "Run"**
+4. Open the Destination folder and ensure the files there
