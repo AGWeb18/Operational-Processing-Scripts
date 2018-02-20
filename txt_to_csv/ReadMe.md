@@ -17,7 +17,7 @@ To get this script up and running you will need:
 + Under "Insert" --> "Module"
 + Copy and Paste the following code: 
 
-```Visual Basic 
+```visual basic 
 Sub list_files()
 
 ' List all the files in a Directory
