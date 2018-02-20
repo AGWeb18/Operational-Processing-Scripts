@@ -26,10 +26,10 @@ for file_name in os.listdir(file_path):
     total_invoice_numbers = pruned_data["Invoice number from partner to end-user"]
     unique_invoice_numbers = total_invoice_numbers.unique()
 
-
-    print("The File :  " + str(file_name) + "\n" + " The total number of lines in the file is: " + str(len(total_invoice_numbers))+ "\n" +"The total number of unique invoice numbers is: " + str(len(unique_invoice_numbers)))
+#   Here we include '-1' to account for python being a zero-indexed language. 
+    print("The File :  " + str(file_name) + "\n" + " The total number of lines in the file is: " + str(len(total_invoice_numbers))+ "\n" +"The total number of unique invoice numbers is: " + str(len(unique_invoice_numbers)-1))
     print('=' * 50)
-    total_unique_invoice_2017 = total_unique_invoice_2017 + len(unique_invoice_numbers)
+    total_unique_invoice_2017 = total_unique_invoice_2017 + (len(unique_invoice_numbers)-1)
 
 
 
