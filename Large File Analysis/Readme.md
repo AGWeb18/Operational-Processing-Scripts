@@ -1,11 +1,10 @@
 # Large File Analysis
 
-The objective of this code is to calculate the unique number of a specific field in multiple files, stored in a single directory.
+**Objective:**  to calculate the unique number of a specific field in multiple files, stored in a single directory.
 
 ## Getting Started
 
-At a high level, this script is directed to a folder in which all the files within it have the same data structure, columns & order.
-A hardcoded column - "Invoice number from partner to end-user" - is used to count the number of unique records across all the files dropped in the folder. 
+At a high level, this script is pointing to a folder in which all the files within it have the same file type, columns & order. A hardcoded column - "Invoice number from partner to end-user" - is used to count the number of unique records across all the files dropped in the folder. 
 
 
 ## Prerequisites
@@ -40,19 +39,19 @@ You will need to locate the path to your pip.exe file, from the instance of Pyth
 **If it's not there, here's an automatic way to locate the path to the pip file:**
 
 + Open CMD - Windows Key + "CMD". Press Enter
-+ Enter the following: dir pip.exe /s /p
++ Enter the following: "dir pip.exe /s /p" (without quotation marks)
 + Press Enter
 + Directory of C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts
 
 
-#### Importing Pandas
+### Importing Pandas
 
 Now you know the directory of pip, it's time to install pandas. 
 
-+ Change directory to the pip location. 
-+ Use this command:
++ Open Command Prompt
++ Change directory to the pip location. Use this command:
 
-`cd C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts"`
+`cd C:\Users\<username>\AppData\Local\Programs\Python\Python36-32\Scripts`
 + Type "pip.exe install pandas". Press Enter. 
 
 
