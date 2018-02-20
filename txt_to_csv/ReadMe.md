@@ -70,7 +70,8 @@ Next objFile
 
 End Sub
 ```
-
++ Update **SRC_file_path** - Where your Input files are located
++ Update **DEST_file_path** - Where your Output files will be placed. 
 
 ## Running the Script
 
