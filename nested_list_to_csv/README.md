@@ -54,6 +54,6 @@ col_2 = "COLUMN_HEADER_2"
 
 ### Running the Script
 
-* Open the **unflatten.py** file in IDLE (or your favourite IDE). 
+* Open the **nested_list_to_csv.py** file in IDLE (or your favourite IDE). 
 * Ensure all paths are correctly defined
 * Run the script (Press F5). 
