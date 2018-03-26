@@ -1,11 +1,5 @@
 ## Comparing Miranda Byte (character) Length and Dataframe Memory calculation
 
-
-### Findings
-- No correlation between DataFrame memory_usage and byte length.
-- Dataframe used significantly less memory
-
-
 ## Process
 
 
@@ -28,3 +22,6 @@
 - Compare the length of the Dataframe using the '.memory_usage()' method on the same object. 
 
  
+### Findings
+- No correlation between DataFrame memory_usage and byte length.
+- Dataframe used significantly less memory
