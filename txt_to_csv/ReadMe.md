@@ -1,4 +1,4 @@
-#  TXT_to_CSV
+#  TXT_to_CSV - Desiged for ZYME
 
 ## Getting Started
 Convert multiple "TXT" files to "CSV". Simply place all the TXT files |" or pipe delimited - in the folder you'd like and run.
