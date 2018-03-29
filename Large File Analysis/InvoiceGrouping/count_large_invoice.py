@@ -9,7 +9,7 @@ import os
 
 
 #   This file_path would need to be adjusted to work on the users local machine
-file_path = str("C:\\Users\\ARidding\\Desktop\\Client Data\\Motorola\\BearComm Only\\DwayneFalcon\\DwayneFalcon - 2017 Analysis\\INPUTFILES\\Zyme_to_360 - CSV\\")
+file_path = str("C:\\Users\\<username>\\Desktop\\<FILE_PATH_GOES_HERE>")
 
 
 #   Create a For loop which works through every file in the folder - All 2017
