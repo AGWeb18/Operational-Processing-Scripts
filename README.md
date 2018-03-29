@@ -5,10 +5,6 @@ These scripts will primarily be written in Python or Excel VBA - Little to No Co
 
 ### BA- Related
 1. [Large File Analysis - Repo](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/Large%20File%20Analysis)
-- Count Invoices
-- Memory comparison
-- Group Invoices
-
 2. [RAC MACRO - POS Auditing]()
 
 
