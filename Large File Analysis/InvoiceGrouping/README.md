@@ -1,7 +1,7 @@
-#  Group Invoice - Analysis
+#  Large Invoice - Grouping Analysis
 Read all invoices from 2017, Group them and rank the count. Assess whether these have made it to Core. 
 
-### Getting Started ###
+### Getting Started
 All you need to get started is *Python* and *pandas* to get started
  
 ### Prerequisites
@@ -30,3 +30,6 @@ grouped_obj = original_data.groupby(["Dealer Customer Number","Sales Rep contact
  ```python
  if int(grouped_obj.nlargest(1)) > 2000:
  ```
+ 
+ ### Run the Script
+ - Open and run count_large_invoice.py
