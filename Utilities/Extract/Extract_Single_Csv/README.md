@@ -10,3 +10,9 @@ Use this script to extract rows from a single CSV, based on a column value, rega
 - Enter the column name to search in. BE EXACT. 
 
 
+## Warning
+Always change the output filename whenever you're running this script. 'Append' mode is on (``` mode='a' ```) which means new records will be added to the bottom of the output csv rather than the file being overwritten.
+
+When handling large data, this can easily be missed and throw off all your work.
+
+If you change the filename, you're completely safe.
