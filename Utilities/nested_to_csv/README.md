@@ -1,4 +1,4 @@
-#  Nested To Csv
+#  Flatten Nested List
 
 ### Imagine you had many rows of data...
 
