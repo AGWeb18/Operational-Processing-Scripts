@@ -14,7 +14,7 @@ from os import listdir
 
 - Set the folder you want all the files from: 
 ```python
-files_in_directory = listdir(r"C:\Users\ARidding\Desktop\Client Data\Motorola\MO\ImportFile\temp\AR")
+files_in_directory = listdir(r"C:\Users\<username>\Desktop\FILE_PATH_GOES_HERE")
 ```
 
 ##  Full Code
