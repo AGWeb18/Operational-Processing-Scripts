@@ -20,7 +20,7 @@ new_range = 0
 lRow = Cells(Rows.Count, 1).End(xlUp).Row
 i_counter = 2
 
-While i_counter <= lRow
+While i_counter <= lRow And Not IsEmpty(Range("A" & i_counter).Value)
 
     
     'Store the Quantity field of the row
@@ -69,7 +69,6 @@ Application.ScreenUpdating = True
 
 
 End Sub
-
 ```
 
 
