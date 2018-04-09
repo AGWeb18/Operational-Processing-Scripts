@@ -9,20 +9,26 @@ This is still unfinished. The purpose of this is to take a value of a row, and e
 Sub expand_rows()
 
 Dim row_count As Integer
-Dim lRow As Integer
+Dim lRow As Long
+Dim new_range As Integer
 
+Application.ScreenUpdating = False
+
+new_range = 0
 
 'Find the last non-blank cell in column A(1)
 lRow = Cells(Rows.Count, 1).End(xlUp).Row
+i_counter = 2
 
+While i_counter <= lRow
 
-For i_counter = 2 To lRow
     
     'Store the Quantity field of the row
     row_count = Range("U" & i_counter).Value
     
     'If the quantity of the row is greater than 1, insert that many number of rows above.
     If row_count > 1 Then
+    
         '   Store the required values
         first_row = CStr(i_counter)
         end_row = CStr(i_counter + row_count - 1)
@@ -43,14 +49,24 @@ For i_counter = 2 To lRow
         ' Set the quantity back to 1
         Range("U" & first_row & ":" & "U" & end_row).Value = 1
         
+        range_count = Range("A" & first_row & ":" & "A" & end_row).Rows.Count
+        new_range = new_range + range_count
+        lRow = (lRow + new_range)
+        i_counter = i_counter + 1
         
+            
 
     Else
+        i_counter = i_counter + 1
     
     End If
     
     
-Next
+Wend
+
+
+Application.ScreenUpdating = True
+
 
 End Sub
 
