@@ -52,11 +52,10 @@ While i_counter <= lRow And Not IsEmpty(Range("A" & i_counter).Value)
         range_count = Range("A" & first_row & ":" & "A" & end_row).Rows.Count
         new_range = new_range + range_count
         lRow = (lRow + new_range)
-        i_counter = i_counter + 1
-        
-            
+        i_counter = i_counter + 1 
 
     Else
+
         i_counter = i_counter + 1
     
     End If
