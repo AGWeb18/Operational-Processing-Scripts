@@ -7,6 +7,7 @@ These scripts will primarily be written in Python or Excel VBA - Little to No Co
 1. [Large File Analysis - Repo](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/Large%20File%20Analysis)
 2. [RAC MACRO - POS Auditing](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/RAC)
 3. [CLR - Audit Script](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/CLR%20Audit)
+4. [CLR - Extract Clean Data]()
 
 
 ### Utilities
