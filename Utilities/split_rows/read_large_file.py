@@ -16,5 +16,5 @@ i = 0
 #   For each chunk - write to a new CSV. 
 for chunk in raw_data:
     i = i + 1
-    chunk.to_csv(\ClaimsByDealers_Core_" + str(i) + ".csv")
+    chunk.to_csv(DST_PATH + DST_FILE + str(i) + ".csv")
  
