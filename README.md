@@ -7,6 +7,7 @@ These scripts will primarily be written in Python or Excel VBA - Little to No Co
 1. [Large File Analysis - Repo](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/Large%20File%20Analysis)
 2. [RAC MACRO - POS Auditing](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/RAC)
 3. [CLR - Audit Script](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/CLR%20Audit)
+4. [CLR - Extract Clean Data](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/update_links/BA/extract_clean_rows)
 
 
 ### Utilities
@@ -14,3 +15,5 @@ These scripts will primarily be written in Python or Excel VBA - Little to No Co
 2. [List directory](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/Utilities/List%20Directory)
 3. [Extract CSVs](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/Utilities/Extract/)
 4. [Flatten a nested list](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/Utilities/flatten_nested)
+5. [Expand Rows](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/Utilities/expand_rows)
+6. [Split Rows](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/Utilities/split_rows)
