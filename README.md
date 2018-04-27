@@ -8,7 +8,7 @@ These scripts will primarily be written in Python or Excel VBA - Little to No Co
 2. [RAC MACRO - POS Auditing](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/RAC)
 3. [CLR - Audit Script](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/CLR%20Audit)
 4. [CLR - Extract Clean Data](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/extract_clean_rows)
-5. [Core Export - YTD Reporting](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/Core%20Extract)
+5. [Top 5 Partner - YTD Report](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/Core%20Extract)
 6. [Monthly YTD Report](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/monthly_script)
 
 
