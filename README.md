@@ -9,6 +9,7 @@ These scripts will primarily be written in Python or Excel VBA - Little to No Co
 3. [CLR - Audit Script](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/CLR%20Audit)
 4. [CLR - Extract Clean Data](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/extract_clean_rows)
 5. [Core Export - YTD Reporting](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/Core%20Extract)
+6. [Monthly YTD Report](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/monthly_script)
 
 
 ### Utilities
