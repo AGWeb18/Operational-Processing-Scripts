@@ -10,6 +10,7 @@ These scripts will primarily be written in Python or Excel VBA - Little to No Co
 4. [Extract Clean Data - CLR Column Issue](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/extract_clean_rows)
 5. [Top 5 Partner - YTD Report](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/Core%20Extract)
 6. [Monthly YTD Report](https://github.com/AGWeb18/Operational-Processing-Scripts/tree/master/BA/monthly_script)
+7. [Quarterly CLR]()
 
 
 ### Utilities
