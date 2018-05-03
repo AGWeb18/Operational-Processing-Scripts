@@ -3,7 +3,7 @@ from os import listdir
 import pandas as pd
 
 #   User Defined path 
-file_path = str(r"C:\Users\<USERPATH>\")
+file_path = str(r"C:\Users\<USERPATH>\\")
 files_in_directory = listdir(file_path)
 
 
