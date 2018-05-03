@@ -1,4 +1,3 @@
-```py
 #   import packages
 from os import listdir
 import pandas as pd
@@ -21,4 +20,3 @@ for file in files_in_directory:
 		print("successful")
 	except:
 		print(file)
-```
