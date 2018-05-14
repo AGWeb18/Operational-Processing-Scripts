@@ -34,8 +34,8 @@ The number of invoices to audit is calculated by multiplying the COUNT of invoic
 ### Choosing Random Transactions to Audit
 To ensure we randomly select transactions, we:
 - Introduce random values in column I *(Warning: volitile formula)*
-- Sort by Column I (this "shuffles" the dataset).
-- Store the respective amount of rows (based on count of invoices). 
+- Sort by Column I.
+- This method this "shuffles" the dataset
 
 This will pseudo-randomly sort the dataset.
 ```vba
