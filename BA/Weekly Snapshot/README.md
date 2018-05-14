@@ -26,4 +26,4 @@ DST_FILE_NAME = "OUTPUT_FILENAME.csv"
 ```
 
 ##  Run the Script
--
+- Run the script (F5 in IDLE, CTRL+B in Sublime)
