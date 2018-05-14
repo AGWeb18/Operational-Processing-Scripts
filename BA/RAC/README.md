@@ -38,6 +38,8 @@ To ensure we randomly select transactions, we:
 - This method this "shuffles" the dataset
 
 This will pseudo-randomly sort the dataset.
+
+#### Code Snippet
 ```vba
  Range("I2:I" & ltrow).Formula = "=Rand()"
  Columns("I:I").Copy
