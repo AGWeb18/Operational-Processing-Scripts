@@ -101,6 +101,8 @@ For i = 6 To lastrow
             Set ws = ThisWorkbook.ActiveSheet
             ltrow = Cells(Rows.Count, 2).End(xlUp).Row
             Range("I2:I" & ltrow).Formula = "=Rand()"
+            Columns("I:I").Copy
+            Columns("I:I").PasteSpecial Paste:=xlPasteValues
             
 
             With ThisWorkbook.ActiveSheet
