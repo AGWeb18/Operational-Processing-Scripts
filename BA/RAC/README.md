@@ -46,3 +46,8 @@ This will pseudo-randomly sort the dataset.
  Columns("I:I").PasteSpecial Paste:=xlPasteValues
  .Range("I2").CurrentRegion.Sort Key1:=.Range("I2"), Order1:=xlAscending, _
 ```
+
+
+### Labelling Transactions to Audit
+- Using the calculated number of transactions to audit. 
+- Mark the respective number of transaction as "Audit"
